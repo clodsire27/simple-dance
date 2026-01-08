@@ -5,7 +5,7 @@ The system compares a user's live webcam pose with a reference dance video and c
 
 ## Demo
 
-![Pose Comparison Demo](assets/gg.GIF)
+![Pose Comparison Demo](gg.GIF)
 
 ## Overview
 
