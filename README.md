@@ -3,6 +3,10 @@
 This project is a course project that implements a real-time human pose comparison system using MediaPipe Pose and OpenCV.  
 The system compares a user's live webcam pose with a reference dance video and computes a similarity score based on keypoint distances and joint angle differences.
 
+## Demo
+
+![Pose Comparison Demo](assets/gg.GIF)
+
 ## Overview
 
 The goal of this project is to analyze and evaluate human motion similarity by extracting skeletal pose information from both a reference video and real-time webcam input.  
