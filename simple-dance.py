@@ -16,7 +16,7 @@ pose = mp_pose.Pose(
 mp_drawing = mp.solutions.drawing_utils
 
 
-reference_video_path = r'C:\Users\hapeo\Desktop\20241121.mp4'
+reference_video_path = r'C:\Users\YOUR/PATH'
 cap_reference = cv2.VideoCapture(reference_video_path)
 if not cap_reference.isOpened():
     print(f"Error: Could not open video file {reference_video_path}")
@@ -171,3 +171,4 @@ else:
     final_score = max(0, 100 - (total_error / frame_idx) * 10)
 
 print(f"Final Score: {final_score:.2f}")
+
